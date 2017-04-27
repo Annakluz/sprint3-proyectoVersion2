@@ -42,7 +42,11 @@ function reproducirVideo3(){
     addEventListener("click", desaparecerImagen3);
 }
 
+var imagen=document.getElementById("carroMorado");
+var imagen2=document.getElementById("imagenJune");
+var imagen3=document.getElementById("imagenGood");
 
-addEventListener("click", desaparecerImagen);
-addEventListener("click", desaparecerImagen2);
-addEventListener("click", desaparecerImagen3);
+
+imagen.addEventListener("click", desaparecerImagen);
+imagen2.addEventListener("click", desaparecerImagen2);
+imagen3.addEventListener("click", desaparecerImagen3);
