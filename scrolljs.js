@@ -1,3 +1,4 @@
+// *** Función scroll INICIO - Diana ***
 var cabezal = document.getElementById("cabezal");
 var botonSignUp = document.getElementById("botonSingUpNav");
 var botonLogIn = document.getElementById("botonLogInNav");
@@ -22,3 +23,4 @@ function cabezalCambio() {
 }
 
 document.addEventListener("scroll", cabezalCambio);
+// *** Función scroll FINAL - Diana ***
