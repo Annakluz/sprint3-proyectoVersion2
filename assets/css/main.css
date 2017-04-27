@@ -1,4 +1,6 @@
+
 /*------------------ Valeria aquí empieza mi sección -------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +37,9 @@ header {
         }
 /*------------------ Valeria aquí termina mi sección -------------------*/
 
+
 /*/----------Rena Aquí empieza mi seccion-----------/*/
+
 header>nav {
    float: right;
    margin-right: 3%;
@@ -77,8 +81,8 @@ header>nav>ul>li>button {
    display: none;
 }
 
-/*/-------------Rena Aquí termina mi seccion----------------/*/
 
+/*/-------------Rena Aquí termina mi seccion----------------/*/
 
 #botonSingUpNav:hover {  /* ----- INICIO commit Diana ------ */
                     cursor: pointer;
