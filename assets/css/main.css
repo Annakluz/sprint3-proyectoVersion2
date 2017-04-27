@@ -1,3 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //----------Rena Aquí empieza mi seccion-----------//
 header>nav {
    float: right;
@@ -41,3 +76,220 @@ header>nav>ul>li>button {
 }
 
 //-------------Rena Aquí termina mi seccion----------------//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textoLadoVideo {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    min-width: 100px;
+    margin-top: 10%;
+    font-weight: 300;
+}
+    .textoLadoVideo h6 {
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .textoLadoVideo h3 {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+.floatDer {
+    float: right;
+}
+
+.floatIzq {
+    clear: both;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
