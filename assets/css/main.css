@@ -1,4 +1,4 @@
-
+/*------------------ Valeria aquí empieza mi sección -------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -33,9 +33,9 @@ header {
         header>img:hover {
             cursor: pointer;
         }
+/*------------------ Valeria aquí termina mi sección -------------------*/
 
-
-//----------Rena Aquí empieza mi seccion-----------//
+/*/----------Rena Aquí empieza mi seccion-----------/*/
 header>nav {
    float: right;
    margin-right: 3%;
@@ -77,7 +77,9 @@ header>nav>ul>li>button {
    display: none;
 }
 
-//-------------Rena Aquí termina mi seccion----------------//
+/*/-------------Rena Aquí termina mi seccion----------------/*/
+
+
 #botonSingUpNav:hover {  /* ----- INICIO commit Diana ------ */
                     cursor: pointer;
                 }
@@ -133,56 +135,6 @@ header>nav>ul>li>button {
     font-size: 90%;
 } 
 /* ------ FINAL commit Diana :) ------ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -260,8 +212,17 @@ header>nav>ul>li>button {
 
 
 
+/*------------------ Valeria aquí empieza mi sección -------------------*/
 
+#textoLadoVideo2 {
+    margin-right: 5%;
+}
+#textoLadoVideo1,
+#textoLadoVideo3 {
+    margin-left: 5%;
+}
 
+/*------------------ Valeria aquí termina mi sección -------------------*/
 
 
 
@@ -274,106 +235,37 @@ header>nav>ul>li>button {
 
 
 
+/*------------------ Valeria aquí empieza mi sección -------------------*/
 
+  /*Parte horizontal final del footer*/
+    #divHorizontal {
+        position: absolute;
+        bottom: 10px;
+        left: 20%;
+        width: 60%;
+        text-align: center
+    }
+    
+        #divHorizontal img {
+            height: 40px;
+            width: 40px;
+            margin: 20px;
+            position: relative;
+        }
+            #divHorizontal img:hover, #divImagenes img:hover {
+                cursor: pointer;
+            }
+        
+        #raya {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        #divHorizontal p {
+            display: inline-block;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------------ Valeria aquí termina mi sección -------------------*/
