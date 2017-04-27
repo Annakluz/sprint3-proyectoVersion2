@@ -135,7 +135,32 @@ header>nav>ul>li>button {
 
 
 
-
+.botonSign{
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #6e6f80;
+    text-decoration: underline;
+    font-size: 90%;
+}
+.infoAdicional{
+    margin-top: 30px;
+    color: #6e6f80;
+    font-size: 70%;
+}
+.infoAdicional .linkInfo{
+    color: #ff00bf;
+    text-decoration: none;
+}
+/*seccion2*/
+#sectionTelefono{
+    clear: both;
+    background: linear-gradient(#75268E, #301F69) fixed;
+    padding: 20px;
+}
 
 
 
