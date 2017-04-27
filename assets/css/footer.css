@@ -1,0 +1,26 @@
+//----------Rena Aquí empieza mi seccion-----------//
+footer {
+   clear: both;
+   background: #34334a;
+   height: 550px;
+   width: 100%;
+   position: relative;
+   padding-top: 50px;
+   color: white;
+}
+
+
+/*Divs verticales del footer*/
+
+#divContenedorVerticales {
+   overflow: hidden;
+   width: 90%;
+   margin: auto;
+}
+
+.divsVerticales {
+   float: left;
+   width: 20%;
+}
+
+//-------------Rena Aquí termina mi seccion----------------//
