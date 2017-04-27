@@ -163,8 +163,32 @@ header>nav>ul>li>button {
 
 
 
-
-
+/*------MONE aqui empieza mi parte del contenido de la seccion telefono----*/
+#contenidoSectionTelefono{
+    margin: auto;
+    width: 900px;
+    height: 100%;
+/*    background-color: aqua;*/
+}
+    #textoSectionTelefono{
+        color: #fff;
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 10%;
+        width: 40%;
+    }
+        .tituloBloqueText{
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .contBloqueText{
+/*            font-family: "Helvetica Neue";*/
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+/*------MONE aqui termina mi parte del contenido de la seccion telefono----*/
 
 
 
