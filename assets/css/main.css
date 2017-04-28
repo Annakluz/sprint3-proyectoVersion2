@@ -134,6 +134,14 @@ header>nav>ul>li>button {
     color: #fff;
     font-size: 90%;
 } 
+
+.checkbox {
+    display: inline;
+}
+
+.formularioOculto {
+    display: none;
+}
 /* ------ FINAL commit Diana :) ------ */
 .botonSign{
     margin-top: 10px;
