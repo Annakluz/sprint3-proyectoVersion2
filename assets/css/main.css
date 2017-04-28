@@ -1,6 +1,3 @@
-
-/*------------------ Valeria aquí empieza mi sección -------------------*/
-
 * {
     margin: 0;
     padding: 0;
@@ -35,16 +32,11 @@ header {
         header>img:hover {
             cursor: pointer;
         }
-/*------------------ Valeria aquí termina mi sección -------------------*/
-
-
-/*/----------Rena Aquí empieza mi seccion-----------/*/
 
 header>nav {
    float: right;
    margin-right: 3%;
 }
-
 header>nav>ul>li {
    display: inline-block;
    list-style: none;
@@ -58,7 +50,6 @@ header>nav>ul>li:hover {
    color: deeppink;
    cursor: pointer;
 }
-
 header>nav>ul>li>button {
    width: 100%;
    padding: 10px 0;
@@ -69,7 +60,6 @@ header>nav>ul>li>button {
    font-family: 'Muli', sans-serif;
    font-size: 18px;
 }
-
 #botonLogInNav:hover {
    background-color: rgba(255, 255, 255, 0.35);
    cursor: pointer;
@@ -80,13 +70,13 @@ header>nav>ul>li>button {
    color: deeppink;
    display: none;
 }
-
-
-/*/-------------Rena Aquí termina mi seccion----------------/*/
-
 #botonSingUpNav:hover {  /* ----- INICIO commit Diana ------ */
                     cursor: pointer;
                 }
+
+
+
+
 
 
 /* seccion1 */
@@ -95,6 +85,7 @@ header>nav>ul>li>button {
     margin-top: 0px;
     position: relative;
 }
+
 #formulario {
     width: 40%;
     height: 100%;
@@ -107,14 +98,17 @@ header>nav>ul>li>button {
     padding-bottom: 80px;
     margin-top: 100px;
 }
+
 #formulario .tituloForm{
     font-size: 45px;
     font-weight: 800;
 }
+
 #formulario .formularioText{
     margin-top: 20px;
     font-size: 90%;
 }
+
 .numTel{
     margin-top: 10px;
     width: 90%;
@@ -125,9 +119,11 @@ header>nav>ul>li>button {
     background-color: none;
     border: none;
 }
+
 .botones{
     display: inline-block;
 }
+
 .botonDriver{
     margin-top: 15px;
     background-color: #ff00bf;
@@ -139,32 +135,35 @@ header>nav>ul>li>button {
     font-size: 90%;
 } 
 /* ------ FINAL commit Diana :) ------ */
+.botonSign{
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #6e6f80;
+    text-decoration: underline;
+    font-size: 90%;
+}
 
+.infoAdicional{
+    margin-top: 30px;
+    color: #6e6f80;
+    font-size: 70%;
+}
+.infoAdicional .linkInfo{
+    color: #ff00bf;
+    text-decoration: none;
+}
 
+/*seccion2*/
+#sectionTelefono{
+    clear: both;
+    background: linear-gradient(#75268E, #301F69) fixed;
+    padding: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------MONE aqui empieza mi parte del contenido de la seccion telefono----*/
 #contenidoSectionTelefono{
     margin: auto;
     width: 900px;
@@ -184,81 +183,43 @@ header>nav>ul>li>button {
             font-weight: 600;
             margin-bottom: 10px;
         }
+
         .contBloqueText{
 /*            font-family: "Helvetica Neue";*/
             font-weight: 300;
             margin-bottom: 50px;
         }
-/*------MONE aqui termina mi parte del contenido de la seccion telefono----*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.botonSign{
-    margin-top: 10px;
-    background-color: #fff;
-    border: none;
-    border-radius: 7px;
-    height: 40px;
-    width: 200px;
-    color: #6e6f80;
-    text-decoration: underline;
-    font-size: 90%;
+#imgCelular{
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 10px;    
 }
-.infoAdicional{
-    margin-top: 30px;
-    color: #6e6f80;
-    font-size: 70%;
+    #imgCelular>img{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+
+/*  sección videos  */
+.divisionesTextoVideo {
+    display: block; 
 }
-.infoAdicional .linkInfo{
-    color: #ff00bf;
-    text-decoration: none;
-}
-/*seccion2*/
-#sectionTelefono{
-    clear: both;
-    background: linear-gradient(#75268E, #301F69) fixed;
-    padding: 20px;
-}
-
-
-
-
-
-
-
-
-
-
+    .video {
+        width: 65%;
+    }
+        .video img {
+            width: 100%;
+            min-width: 400px;
+        }
+        .video iframe {
+            width: 100%;
+            min-width: 400px;
+            display: none;
+        }
 
 .textoLadoVideo {
     box-sizing: border-box;
@@ -279,20 +240,15 @@ header>nav>ul>li>button {
         letter-spacing: 3px;
         margin-bottom: 20px;
     }
-
 .floatDer {
     float: right;
-    clear: left;
+    clear: left; /*checar... con index!!!!!*/
 }
 
 .floatIzq {
     clear: right;
     float: left;
 }
-
-
-
-/*------------------ Valeria aquí empieza mi sección -------------------*/
 
 #textoLadoVideo2 {
     margin-right: 5%;
@@ -301,58 +257,6 @@ header>nav>ul>li>button {
 #textoLadoVideo3 {
     margin-left: 5%;
 }
-
-/*------------------ Valeria aquí termina mi sección -------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------ Valeria aquí empieza mi sección -------------------*/
-
-  /*Parte horizontal final del footer*/
-    #divHorizontal {
-        position: absolute;
-        bottom: 10px;
-        left: 20%;
-        width: 60%;
-        text-align: center
-    }
-    
-        #divHorizontal img {
-            height: 40px;
-            width: 40px;
-            margin: 20px;
-            position: relative;
-        }
-            #divHorizontal img:hover, #divImagenes img:hover {
-                cursor: pointer;
-            }
-        
-        #raya {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 15px;
-        }
-        
-        #divHorizontal p {
-            display: inline-block;
-            margin-bottom: 30px;
-            letter-spacing: 1px;
-        }
-
-/*------------------ Valeria aquí termina mi sección -------------------*/
-
-
-
-
 
 
 /*----------MONE aquí EMPIEZA mi sección de estilos a las imagenes sobre los videos --------------*/
