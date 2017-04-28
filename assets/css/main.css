@@ -282,10 +282,11 @@ header>nav>ul>li>button {
 
 .floatDer {
     float: right;
+    clear: left;
 }
 
 .floatIzq {
-    clear: both;
+    clear: right;
     float: left;
 }
 
@@ -348,3 +349,30 @@ header>nav>ul>li>button {
         }
 
 /*------------------ Valeria aquí termina mi sección -------------------*/
+
+
+
+
+
+
+/*----------MONE aquí EMPIEZA mi sección de estilos a las imagenes sobre los videos --------------*/
+.imagenVideo{
+    width: 561px;
+    height: 314.5px;
+}
+/*Modificacion de la clase clearDer y clearIzq, ya funciona optimamente NO TOCAR esa clase.
+Modificacion del HTML en las etiquetas de imagen del video, se les agrego la clase floatIzq, floatDer .
+<img id="imagenJune" class="imagenVideo floatIzq" src="assets/img/video_june.2b8f5889.png" alt="">
+<img id="imagenJune" class="imagenVideo floatIzq" src="assets/img/video_june.2b8f5889.png" alt="">
+<img id="imagenGood" class="imagenVideo floatDer" src="assets/img/video_ridecorp.61432eb2.png" />
+
+*/
+/*----------MONE aquí TERMINA mi sección de estilos a las imagenes sobre los videos --------------*/
+
+
+
+
+
+
+
+
